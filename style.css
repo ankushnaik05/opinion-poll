@@ -1,0 +1,61 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+.backgrnd {
+    /* The image used */
+     background-image: url("pexels-steve-johnson-1843717.jpg"); 
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#main_box{
+  
+background-color: #ffffff;
+border: 1px solid black;
+opacity: 0.6;
+width: 260px;
+height: 258px;
+
+margin-left: 50px;
+
+}
+
+#main_content{
+font-size: large;
+font-family: fantasy;
+font-weight: 600;
+}
+#myChart{
+    height: 250px;
+    width: 500px;
+}
+canvas{
+
+    width:100% !important;
+    height:350px !important;
+  
+  }
+  #chartCntnr{
+      height: 350px;
+      width: 800px;
+      background-color: aliceblue;
+      margin-left: 368px;
+  }
+  .button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+
+
+</style>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opinion poll</title>
+</head>
+
+<body>
+
+
+    <div class="backgrnd">
+
+        <div id="main_box">
+            <div id="main_content">
+                <form method="post" id="main_form">
+                    <p>Who is your favorite author?<br>
+                        <input type="radio" id="radio1" name="authers" value="Miguel de Cervantes">Miguel de
+                        Cervantes<br>
+                        <input type="radio" id="radio2" name="authers" value="Charles Dickens">Charles Dickens<br>
+                        <input type="radio" id="radio3" name="authers" value="J.R.R. Tolkien">J.R.R. Tolkien<br>
+                        <input type="radio" id="radio4" name="authers" value="Antoine de Saint-Exuper"> Antoine de
+                        Saint-Exuper<br>
+
+                    </p>
+                    <input class="button" type="button" onclick="renderChart()" value="submit">
+
+                </form>
+
+
+            </div>
+            <p><span id='display'></span></p>
+            <h3 id="disp" style="color:green"> </h3>
+            <h4 id="error" style="color:red"> </h4>
+        </div>
+
+        <!-- <canvas id="chartContainer" style="height: 360px; width: 100%;"></canvas> -->
+        <div id="chartCntnr" onsubmit="renderChart()">
+            <canvas id="myChart"></canvas>
+        </div>
+    </div>
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.3.0/Chart.min.js"></script>
+<script src="script.js">
+
+</script>
+
+</html>
